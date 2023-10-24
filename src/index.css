@@ -1,0 +1,23 @@
+.product-cont{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 32px;
+}
+
+.main-cont {
+display: flex;
+padding-right: 32px;
+}
+
+.shopping-cart {
+    width: 25vw;
+}
+
+
+@media (max-width: 800px) {
+    .product-cont{
+    flex-direction: column;
+}
+}

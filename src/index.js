@@ -1,8 +1,9 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import Navbar from './components/navbar';
-import Product from './components/product';
+import ReactDOM from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import App from './App';
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDom.render(<Product/>, document.getElementById('root'));
+root.render(<App/>);
